@@ -1,0 +1,10 @@
+body {
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210903/pngtree-summer-beach-beach-blue-fresh-and-simple-summer-poster-background-image_793161.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: justify;
+  margin: 30px 50px;
+  padding: 70px 60px;
+  border: 5px solid white;
+}
