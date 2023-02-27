@@ -1,0 +1,3 @@
+# Resume SECTION 5
+
+HTML, Internet, dan Version Control adalah tiga konsep yang saling terkait dalam pengembangan web dan perangkat lunak. HTML digunakan untuk membuat konten web yang terstruktur, Internet memungkinkan pengguna untuk mengakses dan berbagi informasi dari seluruh dunia, sementara Version Control memungkinkan pengembang untuk mengelola dan melacak perubahan pada kode selama pengembangan perangkat lunak. Dalam dunia yang semakin terhubung secara digital, pemahaman dan penguasaan atas ketiga konsep ini akan menjadi sangat penting bagi siapa saja yang ingin terlibat dalam pengembangan web dan perangkat lunak.
