@@ -1,0 +1,136 @@
+body {
+  background-color: #434242;
+  color: white;
+}
+
+.flex-container>div {
+  line-height: 50px;
+  display: inline;
+  background-color: rgb(120, 167, 236);
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  width: 800px;
+  height: auto;
+}
+
+.grid-item {
+  display: flex;
+  background-color: #ded8d8;
+  padding: 20px;
+  font-size: 15px;
+  color: black;
+  text-align: left;
+  border-radius: 20px;
+  column-gap: 5px;
+}
+
+.user {
+  width: 80px;
+}
+
+#profile {
+  margin: 20px;
+}
+
+.background {
+  width: 300px;
+  height: 150px;
+  padding-right: 0;
+}
+
+.quote {
+  width: 30px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto;
+  width: 800px;
+  height: auto;
+}
+
+.grid-item2 {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  font-size: 15px;
+  color: black;
+  text-align: left;
+  border-radius: 20px;
+  column-gap: 5px;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto;
+  width: 800px;
+  height: auto;
+}
+
+.grid-item3 {
+  display: flex;
+  background-color: white;
+  padding: 10px 10px;
+  font-size: 15px;
+  color: black;
+  text-align: left;
+  column-gap: 15px;
+}
+
+.grid-container4 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+  width: 20px;
+  height: 10px;
+}
+
+.hobi {
+  font-size: 20px;
+}
+
+.grid-item4 {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 10px 15px;
+  width: 300px;
+  height: 50px;
+  float: left;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  border-radius: 20px;
+  gap: 20px;
+  margin: 10px;
+}
+
+.gambar1 {
+  width: 250px;
+  height: 150px;
+}
+
+.grid-container5 {
+  display: grid;
+  width: 800px;
+  height: auto;
+}
+
+.flex-container2 {
+  text-align: center;
+}
+
+.flex-container2>div {
+  line-height: 50px;
+  display: inline;
+  background-color: rgb(120, 167, 236);
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 10px;
+}
