@@ -1,0 +1,15 @@
+.h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #71c55f;
+}
+
+.btn {
+  color: white;
+  background-color: #71c55f;
+  border-radius: 20px;
+}
+
+.about {
+  padding-top: 3rem;
+  background-color: #71c55f;
+}
