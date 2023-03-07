@@ -1,0 +1,48 @@
+footer {
+  padding: 80px 0;
+}
+
+footer h5 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+footer p, footer ul {
+  color: #a6a6a6;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li i {
+  margin-right: 10px;
+}
+
+footer hr {
+  border-top-color: #666;
+}
+
+footer p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+footer ul.list-inline li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+footer ul.list-inline li:last-child {
+  margin-right: 0;
+}
+
+footer .bi {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+}
