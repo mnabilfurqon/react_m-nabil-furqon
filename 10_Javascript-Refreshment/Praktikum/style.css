@@ -1,0 +1,43 @@
+body {
+  background-color: #333333;
+  color: black;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 10px;
+  margin: 20px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.table thead th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.table tbody th {
+  font-weight: bold;
+  background-color: #f9f9f9;
+}
+
+.table tbody td {
+  background-color: #fff;
+}
+
+.table tbody tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+.btn {
+  padding: 10px;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 10px;
+  margin: 10px 30px;
+}
