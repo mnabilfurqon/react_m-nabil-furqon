@@ -1,3 +1,5 @@
+const prompt = require("prompt-sync")();
+
 function cekGanjilGenap(n) {
   if (n % 2 === 0) {
     console.log(n + " adalah bilangan genap");
@@ -6,9 +8,8 @@ function cekGanjilGenap(n) {
   }
 }
 
-// Contoh penggunaan fungsi cekGanjilGenap
-let nomorPlat = "B 1234 CD";
-let tanggal = 8;
+let nomorPlat = prompt("Masukkan nomor plat (contoh: B 1234 CD)");
+let tanggal = prompt("Masukkan tanggal (contoh: 8)");
 
 let nomorPlatArr = nomorPlat.split(" ");
 let nomor = nomorPlatArr[1];

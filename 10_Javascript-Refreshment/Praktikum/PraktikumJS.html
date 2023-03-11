@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java Script</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script>
+    function validateForm() {
+      const nameInput = document.forms["productForm"]["productName"];
+      const priceInput = document.forms["productForm"]["productPrice"];
+
+      if (nameInput.value == "") {
+        alert("'Product Name' & 'Product Price' tidak boleh kosong.");
+        nameInput.focus();
+        return false;
+      }
+
+      if (nameInput.value.length > 25) {
+        alert("'Product Name' tidak boleh melebihi 25 karakter.");
+        nameInput.focus();
+        return false;
+      }
+
+      if (nameInput.value == "@/#{}") {
+        alert("'Product Name' tidak boleh mengandung simbol.");
+        nameInput.focus();
+        return false;
+      }
+
+      if (priceInput.value == "") {
+        alert("'Product Price' tidak boleh kosong.");
+        priceInput.focus();
+        return false;
+      }
+
+      return true;
+    }
+  </script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Simple Header</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="nav nav-pills justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <img src="./logoBootstrap.jpg" class="img-fluid mt-5 mx-auto d-block" alt="Bootstrap" width="70px">
+  <h4 class="h4 text-center mt-4">Create Product</h4>
+  <p class="text-center">Below is an example form bult entirely with Bootstrap's form controls. Each required form group has a<br>validation state that can be triggered by attempting to submit the form without completing it.</p>
+  <br>
+  <div class="container col-5">
+    <h4>Detail Product</h4>
+      <form name="productForm" onsubmit="return validateForm()">
+        <div class="form-group col-6 mt-3">
+          <label>Product Name</label>
+          <input type="text" name="productName" class="form-control mt-2">
+        </div>
+      <div class="form-group col-lg-4 mt-4">
+        <label>Product Category</label>
+        <select class="form-control mt-2">
+          <option>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="form-group mt-4 col-lg-7">
+        <div class="mb-3">
+          <label for="formFile" class="form-label">Image of Product</label>
+          <input class="form-control mt-2 border-primary-subtle" type="file" id="formFile">
+        </div>
+      </div>
+      <div class="form-group mt-4">
+        <label>Product Freshness</label>
+        <div class="form-check mb-2 mt-1">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+            Brand New
+          </label>
+        </div>
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+          <label class="form-check-label" for="flexRadioDefault2">
+            Second Hand
+          </label>
+        </div>
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+          <label class="form-check-label" for="flexRadioDefault3">
+            Refufbished
+          </label>
+        </div>
+        <div class="form-group mt-4">
+          <label>Additional Description</label>
+          <div class="form-floating mt-2">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2"></label>
+          </div>
+        </div>
+        <form name="productForm" onsubmit="return validateForm()">
+          <div class="form-group col-12 mt-3">
+            <label>Product Price</label>
+            <input type="number" name="productPrice" class="form-control mt-2" placeholder="$ 1">
+          </div>
+      </div>
+      <div class="form-group mt-4 mb-3">
+          <button class="btn btn-primary col-12" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+  </body>
+</html>
