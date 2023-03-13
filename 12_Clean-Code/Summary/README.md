@@ -1,0 +1,3 @@
+# Resume SECTION 12
+
+Clean Code adalah konsep penulisan kode yang mudah dimengerti, mudah dipelihara, dan mempromosikan kolaborasi tim. Tujuannya adalah untuk menciptakan kode yang mudah diubah dan diperbarui, serta menghindari masalah yang terkait dengan kode yang sulit dipahami. Konsep Clean Code diterapkan pada berbagai bahasa pemrograman dan platform, dan sering digunakan dalam pengembangan perangkat lunak. Beberapa prinsip Clean Code meliputi penamaan variabel yang deskriptif, menghindari kode yang terulang, dan membuat kode modular. Dengan menerapkan Clean Code, pengembang dapat meningkatkan kualitas kode, memudahkan debugging, dan mempercepat pengembangan.
