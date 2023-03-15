@@ -1,0 +1,3 @@
+# Resume SECTION 13
+
+React adalah sebuah library JavaScript yang digunakan untuk membangun antarmuka pengguna (user interface/UI) pada aplikasi web. React memungkinkan developer untuk memisahkan antara tampilan (view) dengan logika aplikasi (business logic) dengan menggunakan konsep komponen. Setiap komponen di React merepresentasikan bagian-bagian kecil dari UI yang dapat diatur, digabungkan, dan digunakan kembali untuk membangun aplikasi yang kompleks.
