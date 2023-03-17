@@ -15,8 +15,7 @@ function reverseInteger(num) {
   return isNegative ? -result : result;
 }
 
-// contoh penggunaan
-console.log(reverseInteger(79)); // output: 97
-console.log(reverseInteger(-89)); // output: -98
-console.log(reverseInteger(-100)); // output: -1
-console.log(reverseInteger(20)); // output: 2
+console.log(reverseInteger(79));
+console.log(reverseInteger(-89));
+console.log(reverseInteger(-100));
+console.log(reverseInteger(20));

@@ -9,12 +9,11 @@ function isPalindrome(str) {
   return alphaOnly === reverseStr;
 }
 
-// contoh penggunaan
-console.log(isPalindrome("Kasur ini rusak")); // output: true
-console.log(isPalindrome("Kasur Nababan Rusak")); // output: true
-console.log(isPalindrome("Katak")); // output: true
-console.log(isPalindrome("Malam")); // output: true
-console.log(isPalindrome("Radar")); // output: true
-console.log(isPalindrome("Never add or even")); // output: false
-console.log(isPalindrome("Was it a rat i saw")); // output: true
-console.log(isPalindrome("A nut for a jar of tuna")); // output: true
+console.log(isPalindrome("Kasur ini rusak"));
+console.log(isPalindrome("Kasur Nababan Rusak"));
+console.log(isPalindrome("Katak"));
+console.log(isPalindrome("Malam"));
+console.log(isPalindrome("Radar"));
+console.log(isPalindrome("Never add or even"));
+console.log(isPalindrome("Was it a rat i saw"));
+console.log(isPalindrome("A nut for a jar of tuna"));
