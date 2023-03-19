@@ -1,5 +1,6 @@
 import CreateProduct from '../components/createProduct'
 import Route from '../router/route'
+import '../components/CreateProduct.css'
 // import './App.css'
 
 function App() {
