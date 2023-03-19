@@ -1,6 +1,6 @@
 import React from 'react';
 import reactLogo from '../../assets/react.svg';
-import {ReactLogo, Programmer} from '../../assets/index';
+// import {ReactLogo, Programmer} from '../../assets/index';
 import ButtonComponent from '../../components/buttonComponent/ButtonComponent';
 
 const HomePage = () => {
@@ -25,7 +25,7 @@ const HomePage = () => {
       <main>
         <h1>Tutorial Merusak Mouse</h1>
         <div className="card">
-          <img src={Programmer} alt=""></img>
+          {/* <img src={Programmer} alt=""></img> */}
           {/* <button className="btn" onClick={() => setCount(count + 1)}>
             <span className="count">{count}</span>
             <span className="text">{count === 1 ? 'Click' : 'Clicks'}</span>
