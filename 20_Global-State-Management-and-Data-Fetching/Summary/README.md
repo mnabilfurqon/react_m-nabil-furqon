@@ -1,0 +1,5 @@
+# Resume SECTION 20
+
+Pengelolaan global state dan pengambilan data adalah dua konsep penting dalam pengembangan web modern. Ini memungkinkan pengembang untuk mengelola status aplikasi dan mengambil data dari berbagai sumber dengan efisien.
+
+Pengelolaan global state mengacu pada proses mengelola status aplikasi pada level global. Ini termasuk mengelola data yang dibagikan di seluruh komponen, seperti otentikasi pengguna, pengaturan tema, atau preferensi aplikasi. Pustaka pengelolaan global state seperti Redux, MobX, atau Vuex menyediakan toko terpusat yang mengelola status aplikasi dan membuatnya tersedia untuk semua komponen yang membutuhkannya. Pendekatan ini menyederhanakan pengelolaan status, mengurangi kompleksitas kode, dan meningkatkan kinerja dengan meminimalkan pengganti yang tidak perlu.
