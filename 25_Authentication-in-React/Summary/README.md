@@ -1,0 +1,3 @@
+# Resume SECTION 25
+
+Authentication in React adalah suatu teknik dalam pengembangan aplikasi web dengan menggunakan React sebagai framework utama yang bertujuan untuk memberikan lapisan keamanan pada aplikasi web tersebut. Authentication in React umumnya dilakukan dengan menggunakan teknologi token, seperti JSON Web Token (JWT), yang digunakan untuk memverifikasi identitas pengguna dan memberikan akses ke fitur dan data tertentu dalam aplikasi web. Dengan menggunakan teknik Authentication in React, pengembang dapat mengamankan aplikasi web dari akses yang tidak sah dan memberikan pengalaman yang lebih baik dan lebih aman bagi pengguna.

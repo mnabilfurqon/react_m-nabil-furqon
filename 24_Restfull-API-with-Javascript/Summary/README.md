@@ -1,0 +1,3 @@
+# Resume SECTION 24
+
+Restful API with Javascript adalah suatu metode pengembangan aplikasi web yang menggabungkan penggunaan teknologi RESTful API dan Javascript. Dalam pengembangan aplikasi web dengan Restful API, data dikirim dan diterima dalam format JSON melalui permintaan HTTP. Restful API with Javascript memungkinkan pengembang untuk membuat aplikasi web yang responsif, interaktif, dan dapat berkomunikasi dengan berbagai layanan dan sumber data yang terhubung melalui API.

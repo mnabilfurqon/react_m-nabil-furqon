@@ -1,0 +1,3 @@
+# Resume SECTION 29
+
+Deployment ReactJS adalah proses untuk mempublikasikan aplikasi ReactJS ke server atau platform yang dapat diakses oleh pengguna. Proses deployment melibatkan beberapa tahap, seperti mengoptimalkan performa aplikasi, meminimalkan ukuran bundle, mengkonfigurasi server, dan melakukan testing. Setelah aplikasi siap di-deploy, pengembang dapat memilih platform hosting seperti AWS, Netlify, Heroku, atau Firebase untuk meng-hosting aplikasi. Dalam deployment ReactJS, penting untuk memastikan bahwa aplikasi dapat berjalan dengan stabil, efisien, dan aman pada server produksi, sehingga pengguna dapat menggunakan aplikasi dengan nyaman dan tanpa masalah.

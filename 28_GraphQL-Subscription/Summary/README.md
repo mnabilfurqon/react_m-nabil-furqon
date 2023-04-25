@@ -1,0 +1,3 @@
+# Resume SECTION 28
+
+GraphQL Subscription adalah fitur yang memungkinkan pengembang untuk membuat koneksi real-time antara server dan klien, sehingga data yang diterima oleh klien dapat di-update secara otomatis ketika ada perubahan di server. Dalam penggunaan GraphQL Subscription, pengembang dapat menentukan query yang akan dijalankan ketika ada perubahan data di server, dan ketika perubahan terjadi, server akan mengirimkan data baru ke klien secara real-time. Dengan menggunakan GraphQL Subscription, pengembang dapat mengembangkan aplikasi web yang interaktif dan responsif, serta memberikan pengalaman yang lebih baik bagi pengguna.

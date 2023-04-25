@@ -1,0 +1,3 @@
+# Resume SECTION 27
+
+GraphQL Query and Mutation adalah dua operasi dasar dalam penggunaan GraphQL pada pengembangan aplikasi web. Query digunakan untuk mengambil data dari server, sedangkan Mutation digunakan untuk mengirimkan data ke server dan mengubah data yang sudah ada. Dalam penggunaan GraphQL Query, pengembang dapat menentukan secara spesifik data apa yang dibutuhkan dari server, sehingga dapat meningkatkan efisiensi dan kinerja aplikasi. Sedangkan pada GraphQL Mutation, pengembang dapat mengirimkan data dengan format yang disepakati ke server dan mengubah data yang sudah ada dengan mudah dan efisien. Dengan menggunakan GraphQL Query dan Mutation, pengembang dapat mengembangkan aplikasi web yang responsif, efisien, dan mudah di-maintain.
