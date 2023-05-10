@@ -1,49 +1,39 @@
-import React from 'react';
-import ButtonComponent from '../../components/buttonComponent/ButtonComponent';
+import React, { useEffect } from "react";
+import { Link, useParams } from "react-router-dom";
+import "./aboutMe.css";
+import { Card } from "antd";
+import { useGetUsers } from "./hooks/useUsersData";
+import LoadingComponent from "../../components/loadingComponent/LoadingComponent";
 
 const AboutMe = () => {
-  const isLogedIn = true;
-  const numbers =[1, 2, 3, 4, 5];
-  // const listItem = numbers.map({number} => <li>{number}</li>); 
+  const { id } = useParams();
 
-  function UserGreeting() {
-    return <h1>Welcome Back!</h1>;
-  }
-  
-  function GuestGreeting() {
-    return <h1>Please sign up.</h1>;
-  }
+  // Get user data
+  const [isLoadingUsersData, usersData, getUsersData] = useGetUsers();
 
-  function Greeting() {
-    if(isLogedIn) {
-      return <UserGreeting></UserGreeting>;
-    }
-    return <GuestGreeting></GuestGreeting>;
-  }
+  console.log({ usersData });
 
-  if (isLogedIn === false) {
-    return null;
-  }
+  // Activate custom hook
+  useEffect(() => {
+    getUsersData();
+  }, []);
 
   return (
     <div>
       <h1>About Me</h1>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> {isLogedIn ? 'Helo User' : 'Not You'}
-      <ButtonComponent></ButtonComponent>
-      <hr></hr>
-      <Greeting></Greeting>
-      <hr></hr>
-      {isLogedIn ? <UserGreeting/> : <GuestGreeting/>}
-      <hr></hr>
-      <ul>{listItem}</ul>
-      <hr></hr>
-      {/* <ul>
-        {numbers.map({number, index} => (
-          <li key={index}>Ini nomor {number}</li>
-        )}
-      </ul> */}
+
+      {isLoadingUsersData ? (
+        <LoadingComponent />
+      ) : (
+        usersData?.map((user) => (
+          <Card title={user.firstName + " " + user.lastName} key={user.id}>
+            <div>{user.age}</div>
+            <div>{user.address}</div>
+          </Card>
+        ))
+      )}
     </div>
   );
-}
+};
 
 export default AboutMe;
