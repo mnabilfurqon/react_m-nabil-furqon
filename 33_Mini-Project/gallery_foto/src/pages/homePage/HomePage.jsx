@@ -19,7 +19,7 @@ const HomePage = () => {
         Klik Here!
       </Button>
 
-      <Gap height={50}/>
+      <Gap height={50} />
       <section>
         <h2>Foto-foto Anime</h2>
         <Row justify="center" gutter={[16, 16]}>
@@ -30,6 +30,9 @@ const HomePage = () => {
                 cover={<img alt={anime.title} src={anime.image} />}
               >
                 <Card.Meta title={anime.title} />
+                <Button type="primary" href="/kritik-saran">
+                  Download
+                </Button>
               </Card>
             </Col>
           ))}
